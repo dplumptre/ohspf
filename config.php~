@@ -1,0 +1,51 @@
+<?php
+/**
+ * Here we setup path in the directory and constant.
+ * 
+ * @author Plumptre Ademola <dplumptre@yahoo.com>
+ */
+
+//define('APPLICATION_PATH' , realpath("./"));
+//define('OTHER_PATH' , realpath("../"));
+//
+//$path = array(
+//APPLICATION_PATH,
+//OTHER_PATH,    
+//APPLICATION_PATH.'../',
+//get_include_path()); // specifying path
+////echo  APPLICATION_PATH;
+//set_include_path(implode(PATH_SEPARATOR,$path)); // setting the path
+//
+//function __autoload($classname){
+////loading clases
+//$filename = str_replace("\\","/",$classname).".php";
+//require_once $filename;
+//return;
+//}
+//
+//
+//
+
+
+
+
+
+
+set_error_handler('error_reporting', E_ALL  );
+   
+
+
+
+define("SITE_NAME","Platinum Offshore Bank");
+define("SITE_EMAIL","customercare@platinumoffshorefinance.com");
+
+
+
+define("BASE_PATH","http://localhost/ptbnk/");
+//define("BASE_PATH","http://www.platinumoffshorefinance.com/");
+
+
+
+
+
+?>
