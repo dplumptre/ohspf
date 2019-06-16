@@ -31,24 +31,24 @@ If you are having issues, please let us know at: info@overallheuristic.com
 
 - check api/constant and edit
 
-   -define("LOCALITY","localhost");
-   -define("TAPROOT","root");
-   -define("PASSMEURLUV","mypassword");
-   -define("MTVBASE","mysite");
+   - define("LOCALITY","localhost");
+   - define("TAPROOT","root");
+   - define("PASSMEURLUV","mypassword");
+   - define("MTVBASE","mysite");
 
 - update api/config
 
-   -define("SITE_NAME",""); ----> name of site
-   -define("SITE_EMAIL",""); ----> email of the site eg info@mysite.com
-   -define("ADMIN_EMAIL",""); -----> the email to receive alert
-   -define("BASE_PATH","http://localhost/fr/"); ----> base url would be changed to https/domain.org depending on the site you are working on
+   - define("SITE_NAME",""); ----> name of site
+   - define("SITE_EMAIL",""); ----> email of the site eg info@mysite.com
+   - define("ADMIN_EMAIL",""); -----> the email to receive alert
+   - define("BASE_PATH","http://localhost/fr/"); ----> base url would be changed to https/domain.org depending on the site you are working on
 
 - Add the following below at the top of the page you want to do any interaction with database
 
-   -include("api/config.php");  
-   -require("api/class.phpmailer.php");
-   -require("api/redirecting.php"); // for redirection
-   -include("api/portal.php"); // connecions happens here
+   - include("api/config.php");  
+   - require("api/class.phpmailer.php");
+   - require("api/redirecting.php"); // for redirection
+   - include("api/portal.php"); // connecions happens here
 
 ## REDIRECT
 
